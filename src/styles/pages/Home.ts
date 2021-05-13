@@ -35,15 +35,59 @@ export const About = styled.section`
 
     h2 {
       font-weight: 400;
-      font-size: 30px;
+      font-size: 1.875rem;
       margin-bottom: 3rem;
     }
 
     p {
-      line-height: 24px;
+      line-height: 1.5rem;
 
       & + p {
         margin-top: 1.5rem;
+      }
+    }
+  }
+`
+
+export const Portfolio = styled.section`
+  flex: 1;
+  height: 100vh;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  div {
+    max-width: 700px;
+    padding: 3rem 4rem;
+
+    text-align: center;
+
+    border: 1px solid #ffffff;
+    border-radius: 1px;
+
+    h2 {
+      font-size: 1.875rem;
+    }
+
+    p {
+      line-height: 1.5rem;
+      margin: 2.5rem 0;
+    }
+
+    button {
+      padding: 1rem 3rem;
+
+      background: none;
+      color: ${({ theme }) => theme.colors.text.light};
+
+      border: 1px solid #ffffff;
+      border-radius: 1px;
+
+      transition: 0.2s;
+
+      &:hover {
+        filter: brightness(0.8);
       }
     }
   }

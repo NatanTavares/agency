@@ -1,7 +1,7 @@
 import React from 'react'
 import Head from 'next/head'
 
-import { About, Container, Landing } from '../styles/pages/Home'
+import { About, Container, Landing, Portfolio } from '../styles/pages/Home'
 
 const Home: React.FC = () => {
   return (
@@ -64,7 +64,7 @@ const Home: React.FC = () => {
           </div>
         </About>
 
-        <section className="portfolio">
+        <Portfolio>
           <div className="card">
             <h2>PORTFOLIO</h2>
             <p>
@@ -76,7 +76,7 @@ const Home: React.FC = () => {
               CHECKOUT <strong>MY DRIBBBLE</strong>
             </button>
           </div>
-        </section>
+        </Portfolio>
 
         <section className="connected">
           <div className="contacts">
