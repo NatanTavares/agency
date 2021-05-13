@@ -1,15 +1,19 @@
 import styled from 'styled-components'
 
-export const Container = styled.div`
+export const Container = styled.body`
   width: 100vw;
   height: 100vh;
 
   display: flex;
-  justify-content: center;
-  align-items: flex-start;
+  justify-content: start;
+  flex-direction: column;
+`
 
-  main {
-    width: 100vw;
-    height: 80vh;
-  }
+export const Landing = styled.section`
+  flex: 1;
+  height: 100vh;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
 `

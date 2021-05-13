@@ -1,7 +1,7 @@
 import React from 'react'
 import Head from 'next/head'
 
-import { Container } from '../styles/pages/Home'
+import { About, Container, Landing } from '../styles/pages/Home'
 
 const Home: React.FC = () => {
   return (
@@ -11,9 +11,9 @@ const Home: React.FC = () => {
       </Head>
 
       <main>
-        <section className="landing">
+        <Landing>
           <img src="#" alt="Natan Tavares" />
-        </section>
+        </Landing>
 
         <section className="about">
           <div>
@@ -162,14 +162,14 @@ const Home: React.FC = () => {
             </label>
           </form>
         </section>
+        <footer>
+          <div>
+            <p>NATAN TAVARES &copy; 2021. ALL RIGHTS RESERVED.</p>
+            <p>NATTANTAVARES.S15@gmail.com</p>
+          </div>
+          <button>BACK TO TOP &uarr;</button>
+        </footer>
       </main>
-      <footer>
-        <div>
-          <p>NATAN TAVARES &copy; 2021. ALL RIGHTS RESERVED.</p>
-          <p>NATTANTAVARES.S15@gmail.com</p>
-        </div>
-        <button>BACK TO TOP &uarr;</button>
-      </footer>
     </Container>
   )
 }
