@@ -39,7 +39,7 @@ const Home: React.FC = () => {
           <img src="#" alt="formas geométricas" />
         </About>
 
-        <section className="about">
+        <About>
           <img src="#" alt="Bigodom" />
 
           <div>
@@ -62,7 +62,7 @@ const Home: React.FC = () => {
               </p>
             </article>
           </div>
-        </section>
+        </About>
 
         <section className="portfolio">
           <div className="card">
