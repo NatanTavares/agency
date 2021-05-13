@@ -15,7 +15,7 @@ const Home: React.FC = () => {
           <img src="#" alt="Natan Tavares" />
         </Landing>
 
-        <section className="about">
+        <About>
           <div>
             <h2>
               UI/UX <strong>DESIGNER</strong>
@@ -37,7 +37,7 @@ const Home: React.FC = () => {
           </div>
 
           <img src="#" alt="formas geométricas" />
-        </section>
+        </About>
 
         <section className="about">
           <img src="#" alt="Bigodom" />
