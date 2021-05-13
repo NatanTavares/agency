@@ -7,7 +7,8 @@ const theme = {
     },
     text: {
       dark: '#2A2C39',
-      light: '#FFFFFF'
+      light: '#FFFFFF',
+      highlight: '#717277'
     }
   }
 }

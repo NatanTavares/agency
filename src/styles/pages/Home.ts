@@ -7,6 +7,40 @@ export const Container = styled.body`
   display: flex;
   justify-content: start;
   flex-direction: column;
+
+  footer {
+    display: flex;
+    justify-content: space-between;
+
+    padding: 4rem;
+    font-size: 0.875rem;
+
+    div {
+      p {
+        color: ${({ theme }) => theme.colors.text.highlight};
+
+        & + p {
+          color: ${({ theme }) => theme.colors.text.light};
+          font-weight: 600;
+        }
+      }
+    }
+
+    button {
+      font-weight: 600;
+
+      background: none;
+      color: ${({ theme }) => theme.colors.text.light};
+
+      border: none;
+
+      transition: 0.2s;
+
+      &:hover {
+        filter: brightness(0.8);
+      }
+    }
+  }
 `
 
 export const Landing = styled.section`
