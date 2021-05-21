@@ -69,7 +69,6 @@ export const About = styled.section`
 
     h2 {
       font-weight: 400;
-      font-size: 1.875rem;
       margin-bottom: 3rem;
     }
 
@@ -124,5 +123,59 @@ export const Portfolio = styled.section`
         filter: brightness(0.8);
       }
     }
+  }
+`
+export const Connected = styled.section`
+  background: ${({ theme }) => theme.colors.background.blue};
+  height: 100vh;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  ul {
+    list-style: none;
+
+    li {
+      display: flex;
+      align-items: center;
+
+      margin: 1.5rem 0;
+      font-size: 1.125rem;
+
+      a {
+        color: ${({ theme }) => theme.colors.text.light};
+        text-decoration: none;
+        transition: 0.2s;
+
+        &:hover {
+          filter: brightness(0.9);
+        }
+      }
+
+      svg {
+        font-size: 1.125rem;
+        margin-right: 1.5rem;
+      }
+    }
+  }
+
+  div {
+    max-width: 400px;
+    width: 40vw;
+    height: 60vh;
+
+    > h2 {
+      font-weight: normal;
+      margin-bottom: 3rem;
+    }
+
+    /* &.contacts {
+      background-color: red;
+    }
+
+    &.last-commits {
+      background-color: yellow;
+    } */
   }
 `
