@@ -7,6 +7,7 @@ import { FiMail } from 'react-icons/fi'
 import {
   About,
   Connected,
+  Contact,
   Container,
   Landing,
   Portfolio
@@ -131,30 +132,38 @@ const Home: React.FC = () => {
           </div>
         </Connected>
 
-        <section className="contact">
+        <Contact>
           <h2>WANT MORE DETAILS,</h2>
-          <h2>PRICING INFOS OR A TEST DRIVE?</h2>
+          <h3>PRICING INFOS OR A TEST DRIVE?</h3>
 
           <form>
             <label htmlFor="name">
               <span>NAME</span>
               <input type="text" name="name" id="name" />
             </label>
+
             <div>
               <label htmlFor="phone">
                 <span>PHONE</span>
                 <input type="text" name="phone" id="phone" />
               </label>
+
               <label htmlFor="email">
                 <span>E-MAIL</span>
                 <input type="email" name="email" id="email" />
               </label>
             </div>
+
             <label htmlFor="message">
+              <span>HOW CAN I HELP?</span>
               <textarea name="message" id="message" cols={30} rows={10} />
             </label>
+
+            <button>
+              <strong>SEND</strong>
+            </button>
           </form>
-        </section>
+        </Contact>
         <footer>
           <div>
             <p>NATAN TAVARES &copy; 2021. ALL RIGHTS RESERVED.</p>
