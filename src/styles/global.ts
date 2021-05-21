@@ -24,10 +24,14 @@ export default createGlobalStyle`
     color: ${({ theme }) => theme.colors.text.light};
   }
 
-  
   body, input, textarea, button {
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
+  }
+
+  h2 {
+    font-size: 1.875rem;
+    letter-spacing: 2px;
   }
 
   button {
