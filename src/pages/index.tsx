@@ -1,7 +1,16 @@
 import React from 'react'
 import Head from 'next/head'
 
-import { About, Container, Landing, Portfolio } from '../styles/pages/Home'
+import { FaGithub, FaPhoneAlt, FaTwitter, FaLinkedinIn } from 'react-icons/fa'
+import { FiMail } from 'react-icons/fi'
+
+import {
+  About,
+  Connected,
+  Container,
+  Landing,
+  Portfolio
+} from '../styles/pages/Home'
 
 const Home: React.FC = () => {
   return (
@@ -78,66 +87,50 @@ const Home: React.FC = () => {
           </div>
         </Portfolio>
 
-        <section className="connected">
+        <Connected>
           <div className="contacts">
+            <h2>
+              GET <strong>CONNECTED</strong>
+            </h2>
+
             <ul>
               <li>
-                <img src="#" alt="Phone" />
+                <FiMail />
+                <a href="/">nattantavares.s15@gmail.com</a>
+              </li>
+              <li>
+                <FaPhoneAlt />
                 <span>+55 (71) 99931-0778</span>
               </li>
               <li>
-                <img src="#" alt="Dribbble" />
-                <span>Dribbble</span>
+                <FaLinkedinIn />
+                <a href="/">Linkedin</a>
               </li>
               <li>
-                <img src="#" alt="Twitter" />
-                <span>Twitter</span>
-              </li>
-              <li>
-                <img src="#" alt="Instagram" />
-                <span>Instagram</span>
-              </li>
-            </ul>
-
-            <ul>
-              <li>
-                <img src="#" alt="Email" />
-                <span>Email</span>
-              </li>
-              <li>
-                <img src="#" alt="Behance" />
-                <span>Behance</span>
-              </li>
-              <li>
-                <img src="#" alt="Linkedin" />
-                <span>Linkedin</span>
-              </li>
-              <li>
-                <img src="#" alt="Vcard" />
-                <span>Vcard</span>
+                <FaGithub />
+                <a href="/">Github</a>
               </li>
             </ul>
           </div>
 
-          <div className="last-tweets">
+          <div className="last-commits">
+            <h2>
+              LAST <strong>COMMITS</strong>
+            </h2>
             <ul>
               <li>
-                <img src="#" alt="Twitter" />
                 <p>
-                  A new revision of my website is coming really soon.. with
-                  english translation this time ;)
+                  refactor(component): Implements the interface of the component
+                  expecting the priceId parameter
                 </p>
               </li>
               <li>
-                <img src="#" alt="Twitter" />
-                <p>
-                  Hearing this form you is so great =) Thanks a lot for your
-                  support =)
-                </p>
+                <p>feat(stripe): Consumes Stripe API via SSG</p>
               </li>
             </ul>
           </div>
-        </section>
+        </Connected>
+
         <section className="contact">
           <h2>WANT MORE DETAILS,</h2>
           <h2>PRICING INFOS OR A TEST DRIVE?</h2>
