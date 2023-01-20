@@ -1,0 +1,12 @@
+{
+  "global": {
+    "home": "home",
+    "services": "services",
+    "about": "about",
+    "gallery": "gallery",
+    "contact": "contact",
+    "social": "social",
+
+    "get-quote": "Get a Quote"
+  }
+}

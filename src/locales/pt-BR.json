@@ -1,0 +1,12 @@
+{
+  "global": {
+    "home": "início",
+    "services": "serviços",
+    "about": "sobre",
+    "gallery": "galeria",
+    "contact": "contanto",
+    "social": "social",
+
+    "get-quote": ""
+  }
+}

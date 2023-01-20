@@ -12,7 +12,7 @@ export const IconButton: React.FC<IconButtonProps> = ({
 }) => {
   return (
     <button
-      className='w-10 h-10 bg-zinc-400 rounded-full hover:opacity-75 flex items-center justify-center'
+      className='w-10 h-10 bg-zinc-300 rounded-full hover:opacity-75 flex items-center justify-center'
       {...rest}
     >
       <span className='text-white'>
