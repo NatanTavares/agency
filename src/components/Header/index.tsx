@@ -14,7 +14,7 @@ export const Header: React.FC = () => {
   };
 
   return (
-    <header className='flex w-full items-center text-zinc-700'>
+    <header className='flex w-full items-center'>
       <h1 className='text-zinc-500 text-3xl font-bold'>Roots</h1>
 
       <div className='flex-1 px-20'>

@@ -6,10 +6,12 @@ type LayoutProps = {
 
 export const Layout: React.FC<LayoutProps> = ({ children }) => {
   return (
-    <main className='max-w-[1920px] min-h-screen m-auto py-10 px-12'>
+    <main className='max-w-[1920px] min-h-screen m-auto py-10 px-12 text-zinc-700'>
       <Header />
       {children}
-      <div>i'm a footer</div>
+      <div className='fixed bottom-0 left-0 bg-gray-900 w-full text-white'>
+        i'm a footer
+      </div>
     </main>
   );
 };
