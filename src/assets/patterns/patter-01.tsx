@@ -16,16 +16,8 @@ export const Patter01: React.FC<React.SVGProps<SVGSVGElement>> = (props) => {
         d='M2512.13 251.883H4472.1900000000005V1833.203H2512.13z'
       />
       <defs>
-        <pattern
-          id='pattern0'
-          patternContentUnits='objectBoundingBox'
-          width={1}
-          height={1}
-        >
-          <use
-            xlinkHref='#image0_483_51'
-            transform='matrix(.00185 0 0 .0023 0 0)'
-          />
+        <pattern id='pattern0' patternContentUnits='objectBoundingBox' width={1} height={1}>
+          <use xlinkHref='#image0_483_51' transform='matrix(.00185 0 0 .0023 0 0)' />
         </pattern>
         <image
           id='image0_483_51'

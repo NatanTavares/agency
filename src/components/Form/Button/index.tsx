@@ -1,4 +1,4 @@
-import classNames from 'classNames';
+import classNames from 'classnames';
 
 type ButtonProps = React.ButtonHTMLAttributes<HTMLButtonElement> & {
   label: string;
@@ -18,8 +18,9 @@ export const Button: React.FC<ButtonProps> = ({ label, outlined, ...rest }) => {
       {...rest}
     >
       <span
-        className={classNames('text-white font-medium', {
+        className={classNames('font-medium', {
           'text-zinc-500': outlined,
+          'text-white': !outlined,
         })}
       >
         {label}

@@ -1,7 +1,9 @@
 import { useEffect, useState } from 'react';
 import { NavLink } from './NavLink';
 
-type NavigationProps = {};
+type NavigationProps = {
+  //
+};
 
 const links = [
   {
@@ -30,7 +32,7 @@ const links = [
   },
 ];
 
-export const Navigation: React.FC<NavigationProps> = ({}) => {
+export const Navigation: React.FC<NavigationProps> = () => {
   const [activeLink, setActiveLink] = useState(window.location.pathname);
 
   useEffect(() => {

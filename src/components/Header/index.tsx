@@ -24,9 +24,7 @@ export const Header: React.FC = () => {
       <div className='flex gap-5'>
         <IconButton
           icon={MagnifyingGlass}
-          onClick={() =>
-            changeLanguageAction(i18n.language === 'en-US' ? 'pt-BR' : 'en-US')
-          }
+          onClick={() => changeLanguageAction(i18n.language === 'en-US' ? 'pt-BR' : 'en-US')}
         />
         <Button label={t('global.get-quote')} />
       </div>
