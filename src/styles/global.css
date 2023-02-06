@@ -1,3 +1,14 @@
 @tailwind base;
 @tailwind utilities;
 @tailwind components;
+
+@layer components {
+  .subtitle {
+    font-size: theme('fontSize.5xl');
+    font-weight: theme('fontWeight.medium');
+  }
+  .paraph {
+    font-size: theme('fontSize.xl');
+    color: theme('colors.zinc.700');
+  }
+}

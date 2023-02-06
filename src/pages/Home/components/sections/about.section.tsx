@@ -32,13 +32,13 @@ export const AboutSection: React.FC = () => {
       </div>
 
       <article className='max-w-lg'>
-        <h3 className='text-5xl font-bold'>About Roots</h3>
+        <h3 className='subtitle'>About Roots</h3>
 
-        <p className='mt-5 text-xl'>
+        <p className='paraph mt-5'>
           It is a long established fact that a reader will be by the readable content of a page.
         </p>
 
-        <p className='mt-5 text-xl'>
+        <p className='paraph mt-5'>
           Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
           been the industry&apos;s standard dummy text ever since the 1500s, when an unknown printer
           took

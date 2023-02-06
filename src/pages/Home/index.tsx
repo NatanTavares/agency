@@ -1,7 +1,7 @@
 import { Patter01 } from '../../assets/patterns/patter-01';
 import { Layout } from '../../components';
 import { Button } from '../../components/Form';
-import { AboutSection } from './components/sections';
+import { AboutSection, ServicesSection } from './components/sections';
 
 export const Home: React.FC = () => {
   return (
@@ -19,6 +19,7 @@ export const Home: React.FC = () => {
       </div>
 
       <AboutSection />
+      <ServicesSection />
     </Layout>
   );
 };
